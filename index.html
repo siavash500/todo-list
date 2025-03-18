@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header" >
+        <h2>create you todo list</h2>
+
+        <div class="header-continer" >
+
+            <input formenctype="text/plain" type="text" id="input" placeholder="write some text...">
+
+            <button id="button" >Add Item</button>
+
+        </div>
+        <p id="error" ></p>
+        <div class="filtering" >
+            <button id="filter" >+ Filter</button>
+        </div>
+    </div>
+
+    <div style="display: none;" class="continer header" >
+        <ul class="myul">
+
+             <li class="li" >
+                    create your todo
+                <i class="icon" >x</i>
+
+            </li> 
+    </ul>
+    <div class="clear" >
+        <button class="cleare" >Clear All</button>
+    </div>
+    </div>
+    <script src="java.js" ></script>
+</body>
+</html>
